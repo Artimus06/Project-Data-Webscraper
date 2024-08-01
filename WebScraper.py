@@ -11,7 +11,7 @@ from selenium.webdriver.common.keys import Keys
 import csv
 
 
-projectList = [ 'Sovryn', 'SparkLend', 'STADER LABS', 'StaFi: rDEX', 'Stargate', 'Stargaze', 'Stratos', 'Stride', 'Stroom Network', 'Sturdy', 'SUI NET WORK', 'Suku', 'Swappi', 'SWELL', 'Swisstronik ', 'SynFutures', 'Tabi', 'TAIKO', 'TAP Protocol', 'tea', 'Tezos ', 'Thruster', 'Tidal', 'Tinyman', 'Tokenize', 'Ton ', 'Tropykus', 'Unification', 'Unisat', 'Uptick Network ', 'Utix', 'VENOM FOUNDATION', 'VERIDA', 'Wasabi', 'WePiggy', 'WHITEBIT', 'Wolf Game', 'XION', 'XPLA', 'Yolo', 'Zeta Markets', 'ZETACHAIN', 'Zetachain ', 'Zircuit', 'zkSync', 'ZKX', 'Venom', 'SYNTHR', 'Hana Network', 'Yaka Finance', 'PRYZM', 'Saga', 'Metis', 'DOP', 'Babylon', 'Spatial Labs', 'Rarimo', 'Topos', 'Nubit', 'Satellite IM', 'Mangrove', 'Lumoz', 'AethirATH', 'Ten', 'CVEX', 'Spindl', 'Webb', 'Volare Finance', 'Massa', 'Smart Transactions', 'Layer N', 'MYX Finance', 'FWX', 'Intmax', 'Texture', 'Overeality', 'Inco Network', 'Odyssey', 'Infinity Exchange', 'Avantis', 'Anzen', 'Footium', 'Singular Protocol', 'Surf Protocol', 'Cashmere', 'Fragnova', 'Firechain', 'Citrea', 'Fairblock Network', 'Spritz Finance', 'Carapace', 'ULTRADE', 'Icons of Theia / Theia Studios', 'Tribe3', 'Waterfall Protocol', 'Quantum Temple', 'DEXILON', 'Smilee']
+projectList = []
 
 
 # Set the path to the Chromedriver
