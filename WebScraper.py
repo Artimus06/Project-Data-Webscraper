@@ -254,12 +254,12 @@ for i in range(len(projectList)):
 
     
 
-    
+    #Writes all data to CSV file
     with open('output.csv', 'a', newline='', encoding="utf-8") as csvfile:
         # Create a CSV writer object
         writer = csv.writer(csvfile)
         writer.writerow(finalList)
-    
+#Closes driver once the list is done   
 driver.quit()
 end_time=time.time()
 print(end_time - start_time)
